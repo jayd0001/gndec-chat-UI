@@ -39,11 +39,11 @@
         <div class="msg-bubble">
           <div class="msg-info">
             <div class="msg-info-name"></div>
-            <div class="msg-info-time">12:00</div>
+           <div class="msg-info-time">${formatDate(new Date())}</div>
           </div>
       
           <div class="msg-text">
-            Hi, welcome to ChatBot! Go ahead and send me a message. 😄
+            Hi, welcome to ChatBot! Go ahead and send me a message. 😄<div class="msg-info-time">${formatDate(new Date())}</div>
           </div>
 
         </div>
@@ -95,7 +95,7 @@
       <div class="msg-info-time">${formatDate(new Date())}</div>
     </div>
 
-    <div class="msg-text">${text}</div>
+    <div class="msg-text">${text}</div><div class="msg-info-time">${formatDate(new Date())}</div>
   </div>
 </div>
 `;

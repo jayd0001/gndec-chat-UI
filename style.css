@@ -5,6 +5,11 @@
   --left-msg-bg: #ececec;
   --right-msg-bg: #579ffb;
 }
+@media (max-width: 767px)  {
+   .msg-text,.msger-inputarea *  {
+      font-size: 0.6rem!important;
+    }
+}
 
 html {
   box-sizing: border-box;
@@ -35,6 +40,8 @@ body {
   max-width: 867px;
   margin: 25px 10px;
   height: calc(100% - 50px);
+  border: var(--border);
+  border-radius: 5px;
   background: var(--msger-bg);
   box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
 }
@@ -113,7 +120,7 @@ body {
   font-weight: bold;
 }
 .msg-info-time {
-  font-size: 0.85em;
+  font-size: 0.8em;
   float: right;
 }
 
@@ -182,4 +189,10 @@ body {
     color:  rgb(74,59,131);
     font-family: sans-serif;
     float: left;
+}
+
+#textInput:focus{
+    outline: none !important;
+    border: 1px solid rgb(218,37,28);
+    
 }
