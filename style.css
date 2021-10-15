@@ -40,7 +40,7 @@ body {
   justify-content: space-between;
   width: 100%;
   max-width: 867px;
-  margin: 25px 0px;
+  margin: 25px 10px;
   height: calc(100% - 50px);
   border: var(--border);
   background: var(--msger-bg);
