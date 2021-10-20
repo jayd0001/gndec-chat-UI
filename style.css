@@ -78,6 +78,11 @@ body {
 }
 
 
+.msg-img {
+  width: 40px;
+  height: 40px;
+  padding: 20px !important;
+}
 
 .msg-img {
   width: 50px;
