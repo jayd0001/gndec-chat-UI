@@ -13,6 +13,13 @@
   
 }
 
+@media (min-width: 300px)  {
+ body{
+   overflow-x: hidden;
+ };
+ 
+ 
+}
 html {
   box-sizing: border-box;
 }
@@ -32,6 +39,10 @@ body {
   height: 100vh;
   background-image: var(--body-bg);
   font-family: Helvetica, sans-serif;
+  overflow-x: hidden;
+ 
+ 
+
 }
 
 .msger {
@@ -77,7 +88,6 @@ body {
   margin-bottom: 10px;
 }
 
-
 .msg-img {
   width: 40px;
   height: 40px;
@@ -93,6 +103,7 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
+  
 }
 .msg-bubble {
   max-width: 450px;
@@ -107,21 +118,20 @@ body {
   margin-bottom: 10px;
 }
 
-
+.bot-right{
+  width: 50px;
+}
 .msg-text{
     font-size: 0.9rem;
 }
 
-.msg-img{
-    width: 40px;
-    height: 40px;
-}
+
 .msg-info-name {
   margin-right: 10px;
   font-weight: bold;
 }
 .msg-info-time {
-  font-size: 0.8em;
+  font-size: 0.6em;
   float: right;
 }
 
@@ -140,6 +150,7 @@ body {
 }
 .right-msg .msg-img {
   margin: 0 0 0 10px;
+  padding: 20px;
 }
 
 .msger-inputarea {
